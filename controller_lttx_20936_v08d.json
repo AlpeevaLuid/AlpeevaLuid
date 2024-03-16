@@ -1,0 +1,19 @@
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+
+48 - orange
+
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+console.log(getRandomString());
+false + apple
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const findSmallestNumber = numbers => Math.min(...numbers);
+true / 55,69,1,60,0,26,16,89,59,47,0,51,86,98,70,6,82,50,90,60,84,4,19,20,5,88,6,15,15,92,54
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+apple
+
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+
