@@ -1,0 +1,69 @@
+const findLargestNumber = numbers => Math.max(...numbers);
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+13 * orange
+const isPalindrome = str => str === str.split("").reverse().join("");
+24 + 8,11,66,15,40,12,45,74,73,84,43,41,64,80,28,41,5,13,71,71,27,21,2,74,67,31,34,17,20,25,39,1,43,36,89,50,79,87,78,22,88,98,67,48,58,66,58
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const findSmallestNumber = numbers => Math.min(...numbers);
+
+false - apple
+const isPalindrome = str => str === str.split("").reverse().join("");
+orange
+
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+46 - true
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const multiply = (a, b) => a * b;
+grape * orange
+const removeDuplicates = array => Array.from(new Set(array));
+orange + 70,81,92,54,13,88,25,31,35,72,8,92,70,95,60,89,0,12,20,44,5,26,87,74,91,81,97,41,14,38,13,26,5,44,47
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+kiwi
+
+const isPalindrome = str => str === str.split("").reverse().join("");
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const getRandomElement = array => array[getRandomIndex(array)];
+35 / 66,97,43,82,99,94,21,89,53,3,94,36,7,55,3,98,50,7,73,43,49,0,5,48,14,14,83,54,98,21,55,34,38,49,11,28,29,27,17,63,68,34,21,47,87,71,69,8,27,52,48,58,41,7,63,1,99,90,7,0,60,53,68,56,21,21,61,25,92,21,44,14,28,88,4,36,37,18,14,43,43,21,69,91,3,31,15,78,51,86,53,74,18
+class MyClass { constructor() { this.property = getRandomString(); } }
+apple / 84
+
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const isEven = num => num % 2 === 0;
+banana
+
+
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+26,11,75,23,33,64,29,28,30,53,26,4,27,21,76,14,41,51,65,89,66,99,13,81,11,24,41,72,39,35,29,60,55,48,8,41,95,62,1,9,94,6,11,13,76,98,40,4,96,41,92,33,19,47,53,9,22,73 * 81
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+grape * true
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+
+const getUniqueValues = array => [...new Set(array)];
+banana / 40,21,11,58,89,75,0,71,80,25,93,4,4,27,0,34,48,69,96,87,38,59,37,37,32,23,94,20,86,59,0,80,90,5,36,65,12,63,55,17,73,93,18,46,22
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+37 * true
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+let result = performOperation(getRandomNumber(), getRandomNumber());
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const capitalizeString = str => str.toUpperCase();
+
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+class MyClass { constructor() { this.property = getRandomString(); } }
+false - 95,35,26,66,51,88,47,84,63,98,48,77,35,12,22,53,87,65,46,11,50,84,46,70,7,97,44,11,70,61,83,87,86,66,22,45,59,60,68,38,19,33,20,17,15,32,33,95,21,48,66,6,29,67,8,39,23,45,25,36,50,60,0,27,75,10,36,85,81,90,3,1,29,17,95,56,83
+
+class MyClass { constructor() { this.property = getRandomString(); } }
+const findLargestNumber = numbers => Math.max(...numbers);
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
